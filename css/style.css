@@ -9,8 +9,8 @@ html {
 }
 
 .box {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color :dodgerblue;
     display: flex;
     margin: 10px;
@@ -19,13 +19,15 @@ html {
 .bg {
     background-color: teal;
 }
-
+.green {
+    background-color: rgb(67, 204, 126);
+}
 .yellow {
-    background-color: goldenrod;
+    background-color: rgb(226, 172, 36);
 }
 
 .violet {
-    background-color: palevioletred;
+    background-color: rgb(196, 55, 196);
 }
 
 .bg h1 {
@@ -36,13 +38,14 @@ html {
 }
 
 .container {
-    display: flex;
-    display: wrap;
-    justify-content: center;
+    margin: 0 15em;
 }
 
 .item {
     list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .list {
