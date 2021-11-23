@@ -7,3 +7,46 @@
 html {
     font-size: 100%;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color :dodgerblue;
+    display: flex;
+    margin: 10px;
+}
+
+.bg {
+    background-color: teal;
+}
+
+.yellow {
+    background-color: goldenrod;
+}
+
+.violet {
+    background-color: palevioletred;
+}
+
+.bg h1 {
+    padding: 0.5em;
+    font-size: 6em;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    display: wrap;
+    justify-content: center;
+}
+
+.item {
+    list-style-type: none;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
